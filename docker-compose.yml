@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ffmpeg_run:
+    image: linuxserver/ffmpeg:arm64v8-latest
+    volumes:
+      - ./videos:/videos
+      - ./audios:/audios
+    working_dir: /audios
+    entrypoint: /bin/sh -c
