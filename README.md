@@ -7,9 +7,7 @@ A Docker image to run ffmpeg.
 
 ## Licence
 
-This repository is released under dual-licencing:
-
-For non-commercial use of the Software, it is released under the [GPL-3.0 License](LICENSE.md).
+This repository is released under the [GPL-3.0 License](LICENSE.md).
 
 ----
 
